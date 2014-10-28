@@ -14,5 +14,7 @@ public class userinput {
 		
 		// Tell them what they entered
 		System.out.println("You entered: " + value);
+		
+		input.close();
 	}
 }
